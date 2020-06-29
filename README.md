@@ -26,7 +26,9 @@ Projetar uma fonte de tensão que forneça, na saída, uma tensão entre 3V e 12
 http://tinyurl.com/y95fnukq
 
 ## Esquemático Feito no EAGLE
+Corresponde ao arquivo `fonte.sch`
 ![Imagem do Esquemático](https://i.imgur.com/n32dgu3.png4)
 
 ## PCB Feito no EAGLE
+Corresponde ao arquivo `fonte.brd`
 ![Imagem do PCB](https://i.imgur.com/2fvVLYz.png)
