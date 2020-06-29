@@ -5,7 +5,7 @@ Projetar uma fonte de tensão que forneça, na saída, uma tensão entre 3V e 12
 
 ## Diagrama da Fonte
 
-![Imagem do Circuito](https://i.imgur.com/FXH9yj7.png)
+![Imagem do Circuito](https://i.imgur.com/FtfAlni.png)
 
 ## Lista de Componentes Utilizados
 
@@ -17,13 +17,13 @@ Projetar uma fonte de tensão que forneça, na saída, uma tensão entre 3V e 12
 | [Resistor](https://www.baudaeletronica.com.br/resistor-1k8-1-2w.html) | 1k 5% (1/2W) | R$ 0,14 |
 | [Resistor](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html) | 2,2k 5% (1/4W) | R$ 0,08 |
 | [Potenciômetro Linear](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html) | 5k | R$ 1,09 |
-| [Capacitor Eletrolítico](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-25v.html) | 330 uF / 25V | R$ 0,19 |
+| [Capacitor Eletrolítico](https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html) | 470 uF / 25V | R$ 0,33 |
 | 4 [Diodos 1N4001](https://www.baudaeletronica.com.br/diodo-1n4001.html) (para a ponte) | 1A | R$ 0,14 (cada)|
 | [LED difuso 5mm vermelho](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html) | 2V 20mA | R$ 0,24 |
 | [Transistor NPN BC337](https://www.baudaeletronica.com.br/transistor-npn-bc337.html) | VCEO = 45V, IC = 500mA | R$ 0,17 |
 
 ## Link para o Circuito no Falstad
-http://tinyurl.com/y95fnukq
+http://tinyurl.com/ycgv9rr6
 
 ## Esquemático Feito no EAGLE
 Corresponde ao arquivo `fonte.sch`
@@ -34,3 +34,7 @@ Corresponde ao arquivo `fonte.sch`
 Corresponde ao arquivo `fonte.brd`
 
 ![Imagem do PCB](https://i.imgur.com/Ut5oIXC.png)
+
+## Vídeo
+
+![Youtube](https://www.youtube.com/watch?v=4Xhk5OuTBfk&feature=youtu.be)
