@@ -37,4 +37,4 @@ Corresponde ao arquivo `fonte.brd`
 
 ## Vídeo
 
-![Youtube](https://www.youtube.com/watch?v=4Xhk5OuTBfk)
+https://www.youtube.com/watch?v=4Xhk5OuTBfk
