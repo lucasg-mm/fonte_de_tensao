@@ -18,9 +18,15 @@ Projetar uma fonte de tensão que forneça, na saída, uma tensão entre 3V e 12
 | [Resistor](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html) | 2,2k 5% (1/4W) | R$ 0,08 |
 | [Potenciômetro Linear](https://www.baudaeletronica.com.br/potenciometro-linear-de-5k-5000.html) | 5k | R$ 1,09 |
 | [Capacitor Eletrolítico](https://www.baudaeletronica.com.br/capacitor-eletrolitico-330uf-25v.html) | 330 uF / 25V | R$ 0,19 |
-| 4 [Diodos 1N4007](https://www.baudaeletronica.com.br/diodo-1n4007.html) (para a ponte) | 1A | R$ 0,11 (cada)|
+| 4 [Diodos 1N4001](https://www.baudaeletronica.com.br/diodo-1n4001.html) (para a ponte) | 1A | R$ 0,14 (cada)|
 | [LED difuso 5mm vermelho](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html) | 2V 20mA | R$ 0,24 |
-| [Transistor NPN BC817 SMD](https://www.baudaeletronica.com.br/transistor-npn-bc817-smd.html) | VCEO = 45V, VBE = 5V, IC = 500mA | R$ 0,18 |
+| [Transistor NPN BC337](https://www.baudaeletronica.com.br/transistor-npn-bc337.html) | VCEO = 45V, IC = 500mA | R$ 0,17 |
 
 ## Link para o Circuito no Falstad
 http://tinyurl.com/y95fnukq
+
+## Esquemático Feito no EAGLE
+![Imagem do Esquemático](https://i.imgur.com/n32dgu3.png4)
+
+## PCB Feito no EAGLE
+![Imagem do PCB](https://i.imgur.com/2fvVLYz.png)
