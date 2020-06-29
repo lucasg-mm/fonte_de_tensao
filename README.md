@@ -28,12 +28,12 @@ http://tinyurl.com/ycgv9rr6
 ## Esquemático Feito no EAGLE
 Corresponde ao arquivo `fonte.sch`
 
-![Imagem do Esquemático](https://i.imgur.com/LoQw5AR.png)
+![Imagem do Esquemático](https://i.imgur.com/X917XMZ.png)
 
 ## PCB Feito no EAGLE
 Corresponde ao arquivo `fonte.brd`
 
-![Imagem do PCB](https://i.imgur.com/Ut5oIXC.png)
+![Imagem do PCB](https://i.imgur.com/UE5hJaU.png)
 
 ## Vídeo
 
