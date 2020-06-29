@@ -16751,6 +16751,10 @@ general purpose rectifier, 1 A</description>
 <junction x="137.16" y="55.88"/>
 <pinref part="D1" gate="1" pin="ANODE"/>
 <pinref part="D3" gate="1" pin="ANODE"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="50.8" x2="198.12" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="50.8" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
+<junction x="157.48" y="50.8"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -16775,10 +16779,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="172.72" y1="88.9" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
 <junction x="137.16" y="88.9"/>
 <pinref part="T1" gate="G$1" pin="C"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="88.9" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="88.9" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
-<junction x="172.72" y="88.9"/>
 <pinref part="D2" gate="1" pin="CATHODE"/>
 <pinref part="D4" gate="1" pin="CATHODE"/>
 </segment>
@@ -16818,9 +16818,10 @@ general purpose rectifier, 1 A</description>
 <net name="N$9" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="E"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="63.5" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="63.5" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="63.5" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="76.2" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
