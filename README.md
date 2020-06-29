@@ -22,6 +22,41 @@ Projetar uma fonte de tensão que forneça, na saída, uma tensão entre 3V e 12
 | [LED difuso 5mm vermelho](https://www.baudaeletronica.com.br/led-difuso-5mm-vermelho.html) | 2V 20mA | R$ 0,24 |
 | [Transistor NPN BC337](https://www.baudaeletronica.com.br/transistor-npn-bc337.html) | VCEO = 45V, IC = 500mA | R$ 0,17 |
 
+## Partes do Circuito e Justificativa dos Componentes
+
+### Fonte de Tensão AC de 127V
+A fonte foi projetada para funcionar com o fornecimento de uma tensão de 127V (RMS) em corrente alternada (AC). O simulador usado (Falstad) permite apenas definir a tensão máxima (peak) de uma fonte AC. Mas, sabemos que:
+
+![1](http://www.sciweavers.org/upload/Tex2Img_1593462823/render.png)
+
+Então a tensão máxima dessa fonte foi ajustada para 179.6V no simulador. 
+
+### Transformador
+O transformador tem como objetivo diminuir o valor da tensão de 127V. Para determinar o valor do transformador necessário, foi preciso realizar alguns cálculos:
+
+* Sabemos que a nossa fonte precisa fornecer no máximo *12V*
+
+* Cada diodo tem uma queda de *0.7V*
+
+* O circuito regulador precisa de aproximadamente *8.46V* para funcionar (quando a fonte fornece *12V*)
+
+Somando os valores em negrito, temos uma tensão de pico de aproximadamente 21.96V, por isso, precisamos de um transformador de 15V RMS, capaz de fornecer 500 mA.
+
+### Ponte de Diodos (Rectifier)
+A ponte de diodos converte a tensão AC do transformador numa tensão DC pulsante. 
+
+### Capacitor (Filtro)
+O capacitor diminui os pulsos da tensão fornecida pela ponte de diodos. O capacitor está submetido a uma tensão de aproximadamente 20V, porém, foi listado na lista de materiais com 25V para evitar queimar o dispositivo (temos uma margem de segurança de 5V).
+
+### LED
+Apenas para indicar qua a fonte está ligada. Possui um resistor de 1k conectado em série para não queimar o diodo.
+
+### Circuito Regulador
+Esse circuito elimina o ripple da tensão fornecida pelo filtro, resultando na tensão DC entre 3V e 12V desejada (ela é definida manipulando o potenciômetro).
+
+### Saída
+Representamos o dispositivo a ser alimentado por um resistor de 120 ohms.
+
 ## Link para o Circuito no Falstad
 http://tinyurl.com/ycgv9rr6
 
