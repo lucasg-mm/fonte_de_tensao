@@ -15,7 +15,7 @@ Projetar uma fonte de tensão que forneça, na saída, uma tensão entre 3V e 12
 | Nome do Componente | Valor | Preço |
 | --- | --- | --- |
 | [Transformador Trafo](https://www.baudaeletronica.com.br/transformador-trafo-500ma-15v.html) | 15V 500mA | R$ 22,70 |
-| [Diodo Zener 1N5242](https://www.baudaeletronica.com.br/diodo-zener-1n5242-12v-0-5w.html) | 12V 0,5W | R$ 0,12 |
+| [Diodo Zener BZX55C](https://www.baudaeletronica.com.br/diodo-zener-bzx55c-13v-0-5w.html) | 13V 0,5W | R$ 0,09 |
 | [Resistor](https://www.baudaeletronica.com.br/resistor-1k8-5-1-4w.html) | 1,8k 5% (1/4W) | R$ 0,08 |
 | [Resistor](https://www.baudaeletronica.com.br/resistor-1k8-1-2w.html) | 1k 5% (1/2W) | R$ 0,14 |
 | [Resistor](https://www.baudaeletronica.com.br/resistor-2k2-5-1-4w.html) | 2,2k 5% (1/4W) | R$ 0,08 |
