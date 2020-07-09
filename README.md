@@ -37,13 +37,13 @@ Então a tensão máxima dessa fonte foi ajustada para 179.6V no simulador.
 ### Transformador
 O transformador tem como objetivo diminuir o valor da tensão de 127V. Para determinar o valor do transformador necessário, foi preciso realizar alguns cálculos:
 
-* Sabemos que a nossa fonte precisa fornecer no máximo *12V*
+* Sabemos que a nossa fonte precisa fornecer no máximo **12V**
 
-* Cada diodo tem uma queda de *0.7V*
+* Cada diodo tem uma queda de **0.7V**
 
-* O circuito regulador precisa de aproximadamente *8.46V* para funcionar (quando a fonte fornece *12V*)
+* O circuito regulador precisa de aproximadamente **8.46V** para funcionar (quando a fonte fornece *12V*)
 
-Somando os valores em negrito, temos uma tensão de pico de aproximadamente 21.96V, por isso, precisamos de um transformador de 15V RMS, capaz de fornecer 500 mA.
+Somando os valores em negrito, temos uma tensão de pico de aproximadamente 21.16V, por isso, precisamos de um transformador de, no mínimo, 15V RMS, capaz de fornecer 500 mA.
 
 ### Ponte de Diodos (Rectifier)
 A ponte de diodos converte a tensão AC do transformador numa tensão DC pulsante. 
