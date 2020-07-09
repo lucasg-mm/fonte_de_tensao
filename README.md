@@ -1,5 +1,8 @@
 # Projeto 1 da Disciplina SCC0180: Fonte de Tensão
 
+## Autor
+Lucas Gabriel Mendes Miranda, 10265892
+
 ## Objetivo
 Projetar uma fonte de tensão que forneça, na saída, uma tensão entre 3V e 12V com capacidade de 100mA.
 
